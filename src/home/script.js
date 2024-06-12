@@ -40,51 +40,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 });
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    const sliders = document.querySelectorAll('.slider');
-    const btnPrev = document.getElementById('prev-button');
-    const btnNext = document.getElementById('next-button');
-  
-    let currentSlide = 0;
-  
-    
-    function hideSlider() {
-        sliders.forEach(slide => slide.style.opacity = '0');
-    }
-  
-    
-    function showSlider() {
-        sliders[currentSlide].style.opacity = '1';
-    }
-  
-   
-    showSlider();
-  
-    function nextSlider() {
-        hideSlider();
-        if (currentSlide === sliders.length - 1) {
-            currentSlide = 0;
-        } else {
-            currentSlide++;
-        }
-        showSlider();
-    }
-  
-    function prevSlider() {
-        hideSlider();
-        if (currentSlide === 0) {
-            currentSlide = sliders.length - 1;
-        } else {
-            currentSlide--;
-        }
-        showSlider();
-    }
-  
-    if (btnNext && btnPrev) {
-        btnNext.addEventListener('click', nextSlider);
-        btnPrev.addEventListener('click', prevSlider);
-    }
-});
+
 
 const raioPista = 120;
 const larguraCarrinho = 13;

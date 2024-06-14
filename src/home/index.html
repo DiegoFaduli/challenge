@@ -18,7 +18,19 @@
         <div class="buscar">
             <input type="text" placeholder="Buscar aposta...">
         </div>
-        <img class="UserIMG" src="/public/assets/images/UserIMG2.png" alt="login">  
+        <button id="BtnUser" class="btnUser"><img class="UserIMG" src="./Imagens/UserIMG2.png" alt="login"></button>
+
+        <div id="LoginContainer" class="escondido">
+            <form id="FormLogin">
+                <h2>Login</h2>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button class="btnLogin" type="submit">Entrar</button>
+                <button class="btnLogin2" type="button" id="Btncancelar">Cancelar</button>
+            </form>
+        </div>
     </header>
 
 <!-- seção 1 -->

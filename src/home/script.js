@@ -182,3 +182,19 @@ const canvas = document.getElementById('canvas');
 canvas.width = 400;
 canvas.height = 400;
 animar();
+
+// Botão de Login e suas funções
+
+document.getElementById('BtnUser').addEventListener('click', function(){
+    document.getElementById('LoginContainer').style.display = 'block';
+  });
+  
+  document.getElementById('Btncancelar').addEventListener('click', function(){
+    document.getElementById('LoginContainer').style.display = 'none';
+  });
+  
+  document.getElementById('FormLogin').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Cadastro realizado!');
+    document.getElementById('LoginContainer').style.display = 'none';
+  });

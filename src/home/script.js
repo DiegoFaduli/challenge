@@ -198,3 +198,10 @@ document.getElementById('BtnUser').addEventListener('click', function(){
     alert('Cadastro realizado!');
     document.getElementById('LoginContainer').style.display = 'none';
   });
+
+
+
+// botao de saiba mais
+document.getElementById('btnSM').addEventListener('click', function(event) {
+    window.location.href = 'https://www.fiaformulae.com/pt-br/standings?season=84467676-4d5d-4c97-ae07-0b7520bb95ea&tab=drivers&period=isFullSeason'
+});

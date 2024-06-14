@@ -183,6 +183,21 @@ input[type="text"] {
     margin-left: 58px;
 }
 
+.SaibaMais{
+    background-color: #486ac0;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border: 1px solid #143896;
+    cursor: pointer;
+}
+
 .grafico{
     height: 200px;
     width: 200px;
@@ -268,7 +283,7 @@ input[type="text"] {
 }
 
 .closeBtn {
-    color: #aaa;
+    color: black;
     float: right;       
     font-size: 28px;
     font-weight: bold;

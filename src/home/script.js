@@ -201,7 +201,17 @@ document.getElementById('BtnUser').addEventListener('click', function(){
 
 
 
-// botao de saiba mais
+// Botão de saiba mais
 document.getElementById('btnSM').addEventListener('click', function(event) {
     window.location.href = 'https://www.fiaformulae.com/pt-br/standings?season=84467676-4d5d-4c97-ae07-0b7520bb95ea&tab=drivers&period=isFullSeason'
 });
+
+// Botão de apostas
+document.getElementById('btnapostas').addEventListener('click', function(){
+    document.getElementById('Secao1').scrollIntoView({behavior: "smooth"});
+})
+
+//Botão de impactos
+document.getElementById('btnimpactos').addEventListener('click', function(){
+    document.getElementById('Secao3').scrollIntoView({behavior: "smooth"});
+})

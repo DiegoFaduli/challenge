@@ -16,6 +16,28 @@ header{
   
 }
 
+#btnapostas{
+    padding: 15px;
+    font-size: 26px;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+    border: 0.5px solid #40D9E2;
+    font-family: Diethelm AR Display;
+    border-radius: 20px;
+}
+
+#btnimpactos{
+    padding: 15px;
+    font-size: 26px;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+    border: 0.5px solid #40D9E2;
+    font-family: Diethelm AR Display;
+    border-radius: 20px;
+}
+
 .logo{
     width: 250px;
     height: 250px;
